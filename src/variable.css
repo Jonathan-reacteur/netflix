@@ -8,7 +8,7 @@
   --rapport-taille-hauteur: calc(16 / 9);
   --height-vignette: 85px;
   --width-vignette: calc(
-    var(--height-vignette) * calc(--rapport-taille-hauteur)
+    var(--height-vignette) * var(--rapport-taille-hauteur)
   );
 }
 /* On utilise var() pour appeler la variable 
